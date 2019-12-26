@@ -1,7 +1,7 @@
 <template>
     <div class="profile">
      <headTop title="我的"></headTop>
-      <section class="profile-number">
+     <section class="profile-number">
         <router-link to="/login"  class="profile-link">
           <div class="profile-image">
             <i class="iconfont icon-touxiang"></i>
@@ -19,8 +19,7 @@
             <i class="iconfont icon-arrow-right"></i>
           </span>
           <div class="clear"></div> <!-- 清除浮动 -->
-        </router-link>
-               
+        </router-link>       
       </section>
       <section class="profile-info-data">
         <ul class="info-data-list">
